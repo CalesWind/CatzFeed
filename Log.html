@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="B.css"/>
+        <link rel="icon" type="img/jpg" href="94895.jpg"/>
+        <title> Login </title>
+    </head>
+    <body>
+        <form action="index.php" medthod="post" enctype="multipart/form-data">
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="WRITE YOUR USERNAME" minlength="4" maxlength="20" required><br>
+          
+            <label for="password">password:</label>
+            <input type="password" id="password" minlength="8" maxlength="20" required><br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="someshit@gmail.com"><br>
+
+            <label for="phone">phone #:</label>
+            <input type="tel" id="phone" placeholder="091 1111 111" pattern="[0-9]{3} [0-9]{4} [0-9]{3}"><br>
+
+            <label for="bday">birthdate:</label>
+            <input type="date" id="bday"><br>
+
+            <label for="quantity">quatity</label>
+            <input type="number" id="quantity" min="0" max="20" value="1"><br>
+
+            <label for="gender">gender:</label>
+            
+            <label for="male">male</label>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="female">female</label>
+            <input type="radio" id="female" value="female" name="gender">
+            <label for="nonbinary">nonbinary</label>
+            <input type="radio" id="nonbinary" value="nonbinary" name="gender"><br>
+
+            <label for="payment">payment:</label>
+            <select aria-placeholder="sad">
+                <option value="Visa">Visa</option>
+                <option value="OB">Online Banking</option>
+            </select><br>
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="5" cols="30" placeholder="write your thoughts"></textarea><br>
+
+            <label for="file">file:</label>
+            <input type="file" id="file" accept="img/png, img/jpeg"><br>
+
+            <input type="submit"><br>
+            <input type="reset">
+        </form>
+    </body>
+</html>

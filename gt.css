@@ -1,0 +1,39 @@
+
+
+    header>nav>ul {
+      background-color: black;
+      flex: content;
+      flex-direction: row;
+    }
+
+    header>nav>ul>li {
+      background-color: red;
+    }
+
+    header>nav>ul>li>a {
+      display: block;
+      padding: 8px;
+      color: white;
+      font-size: 17px;
+      text-decoration: none;
+    }
+
+    header>nav>ul>li>a:hover {
+      background-color: gray;
+    }
+
+    article {
+      background-color: aqua;
+      width: 120px;
+      height: 180px;
+      overflow: hidden;
+    }
+
+    article>h2 {
+      color: blueviolet;
+      font-size: medium;
+    }
+
+    article>p {
+      font-size: smaller
+    }
